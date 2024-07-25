@@ -6,7 +6,8 @@ import pandas as pd
 import snowflake.connector
 
 def extract_data(**kwargs):
-    api_key = 'IMMWDQS402UL11Z1'
+    # Enter your api key and stock symbol
+    api_key = '-----------'
     symbol = 'AAPL'
     url = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={api_key}'
 
