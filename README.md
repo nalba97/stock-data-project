@@ -1,0 +1,1 @@
+This ETL pipeline extracts daily stock data from the Alpha Vantage API, transforms the data by sorting it by date, and loads it into a Snowflake database. The pipeline is managed by Apache Airflow and is scheduled to run daily.
